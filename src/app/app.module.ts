@@ -3,18 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SuccessAlert } from './successAlert/successAlert.component'
-import { WarningAlert } from './warningAlert/warningAlert.component'
+import { SuccessAlert } from './successAlert/successAlert.component';
+import { WarningAlert } from './warningAlert/warningAlert.component';
+import { ErrorAlert } from './errorAlert/errorAlert.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WarningAlert,
-    SuccessAlert
+    SuccessAlert,
+    ErrorAlert
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
