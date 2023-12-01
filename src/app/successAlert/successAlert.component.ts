@@ -2,7 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'success-alert',
-  templateUrl: './successAlert.component.html',
+  template: `
+  <p>
+    Component 1 created successfully!
+  </p>
+  `,
   styleUrls: ['./successAlert.component.css']
 })
 export class SuccessAlert {
